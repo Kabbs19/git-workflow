@@ -14,9 +14,11 @@ This guide helps with the first steps of creating and initialising git for a new
 1. Navigate to new folder with terminal /*cd, ls*/
 2. Initialise git and perform initial commit
 
+    '''bash
     git init
     git add . /*or filename*/
     git commit -m "initial commit"
+    '''
 
 3. Create new repo on GitHub
 
@@ -41,4 +43,3 @@ This guide helps with the first steps of creating and initialising git for a new
 ## Useful lines
 
     git config --global pull.rebase true /*rewrites your local commits on top of the new changes instead of creating a merge commit*/
-    
