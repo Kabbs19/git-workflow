@@ -10,21 +10,22 @@ This guide helps with the first steps of creating and initialising git for a new
     nano mkidr folder-name
 ```
 
-1. nano index.html /*creates main html file*/
+1. Create main html, readme and css files
 
 ```bash
-    nano README.d
+    nano index.html
+    nano README.md
     nano style.css
 ```
 
 ## Initialise git, create repo and push changes
 
-1. Navigate to new folder with terminal /*cd, ls*/
+1. Navigate to new folder with terminal
 1. Initialise git and perform initial commit
 
 ```bash
     git init
-    git add . /* or filename */
+    git add . # Replace . with file name
     git commit -m "initial commit"
 ```
 
@@ -35,13 +36,15 @@ This guide helps with the first steps of creating and initialising git for a new
 
 1. Pase remote URL from GitHub into terminal
 
+```bash
     git remote add origin [remote URL]
+```
 
 1. Push code to repo
 
 ```bash
-    git branch -M main /*changes default branch name to main*/
-    git push -u origin main /*-u git remembers which branch to push to*/
+    git branch -M main # Changes default branch name to main
+    git push -u origin main # -u git remembers which branch to push to 
 ```
 
 1. From now on
